@@ -1,0 +1,32 @@
+h1{
+    text-align: center; 
+    font-family: 'Old Standard TT', serif;
+    color: yellow;
+    background-color: red;
+    border-style: solid; 
+}
+p{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.navbar li{
+    float: left;
+}
