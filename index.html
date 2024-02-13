@@ -24,10 +24,68 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     </head>
-	<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+          font-family: "Lato", sans-serif;
+        }
+        
+        .sidenav {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #111;
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 60px;
+        }
+        
+        .sidenav a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+        }
+        
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+        
+        .sidenav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+        }
+        
+        #main {
+          transition: margin-left .5s;
+          padding: 16px;
+        }
+        
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+        </style>
+<body>
+    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
         <script src="index.js"></script>
         <nav class="navbar">
-            <img src="Images/CPSEP_Icon2.png" width="80" height="80">
+            <img src="Images/RSP_Icon2.png" width="80" height="125">
             <ul class="navpages">
                 <li><a href="news.html">News</a></li>
                 <li><a href="our_mission.html">Our Mission</a></li>
@@ -42,6 +100,7 @@
                 <li><a href="">Ti&#xEA;&#833;ng Vi&#xEA;&#803;t</a></li>
              </ul>
         </nav>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
         <header>
 		    <h1>
                 Revolutionary Students Party of Iowa
@@ -102,7 +161,7 @@
         </div>
         <div class="grid-container">
             <div class="item1" id="main" style=" margin: auto;width: 50%;">
-                <img src="lenin poster1.jpg" width="300" height="200" alt="leninp1" class="center">
+                <img src="Images/leninwithhat.png" width="150" height="200" alt="leninp1" class="center">
                 <h5 style="text-align: center;">
                     Vladimir Lenin!
                 </h5>
@@ -157,6 +216,16 @@
         </div>
         <br>
         <div id="main" style="margin: auto;width: 50%;">
+            <h1 style="text-align: center;">
+            Why social Democracy is not for the proletariat
+            </h1>
+            <br>
+            <p>
+                Some leftists (and far from socialists) will argue that social-democracy is sufficient as an ideology and that reforming capitalism with welfare and high taxes is a sufficient system. Us Marxists however know this is not the case! Social-Democracy (despite the convincing name) is not socialist at all and therefore does not stand with the proletariat and instead betrays them. Social-Democracy is still capitalism; of which in of itself is inherently flawed. Social-Democracy still advocates for the dictatorship of the bourgeois and still keeps the 1% of richest people in the world in power over the 99% of workers and citizens. Those who advocate for such a system are either blinded by bourgeois lies or are bourgeois themself! Such a system still relies on exploitative labor of poor citizens in third-world nations; We do not agree with this! We don't believe in taxes or exploitation of foreign citizens' labor for profit, we believe in people and the planet before profits. Social-Democracy is like taking a decrepit house and painting it to make it look better. Sure, the place <i>looks</i> better, but it's still a decrepit decaying building; you didn't solve the root issue. This is exactly the problem with Social-Democracy! It is capitalism painted to look "marginally" better, however all the faults and inevitably exploitative properties of capitalism are still immensely present. As such, anyone who actively advocates for Social-Democracy cannot be called a true Socialist or revolutionary for the proletariat and instead are betrayers of the workers.
+            </p>
+        </div>
+        <br>
+        <div id="main" style="margin: auto;width: 50%;">
         <h1 style="text-align: center;">
             I'm lost. How can I learn more about socialism?
         </h1>
@@ -189,12 +258,15 @@
             <li>Rosa Luxemburg</li>
             <li>Fidel Castro</li>
             <li>Che Guevara</li>
+            <li>Ho Chi Minh</li>
         </ul>
         </div>
         <h1 style="text-align: center;">
             Humans fighting for humans <br> Revolutionary Students Party (RSP) of Iowa
         </h1>
         <img src="Images/CPSEP_(Communist_Party_of_South_East_Polk)_Flag.png" width="200" height="125" alt="leninp1" class="center">
+        <br>
+        <img src="Images/RSP_Icon2.png" width="100" height="150" alt="leninp1" class="center">
     <footer style="background-color: rgb(250, 215, 215);">
         <h5>
             Copyright 2024 Isaac Harper and Noah Hoffman <br> Revolutionary Students Party official website
