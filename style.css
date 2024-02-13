@@ -197,6 +197,15 @@ border-style: solid;
     color:#ebff34;
     border-style: solid;
     }
+#palestine {
+    background-color:green;
+    padding:15px;
+    color:#000000;
+    border-style: solid;
+}
+mark {
+    background: #df3232;
+}
 .item1 { grid-area: box left; }
 .item2 { grid-area: box middle; }
 .item3 { grid-area: box right; }
