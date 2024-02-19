@@ -203,8 +203,23 @@ border-style: solid;
     color:#000000;
     border-style: solid;
 }
+.container {
+    position: relative;
+    text-align: center;
+    color:#ff0000;
+}
+.centered {
+    position:absolute;
+    top:50%;
+    left:60%;
+    transform:translate(-50%, -50%);
+}
 mark {
-    background: #df3232;
+    background-color:#5e1d1d;
+    color:#ff0000;
+}
+#color-box0 {
+    background-color: #5e1d1d;
 }
 .item1 { grid-area: box left; }
 .item2 { grid-area: box middle; }
