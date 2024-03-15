@@ -206,7 +206,7 @@ border-style: solid;
 .container {
     position: relative;
     text-align: center;
-    color:#ff0000;
+    display:flex;
 }
 .centered {
     position:absolute;
@@ -239,4 +239,29 @@ mark {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+.container2 {
+display:grid;
+align-items: center;
+grid-template-columns: 6fr 5fr 2fr;
+column-gap: 10px;
+}
+igm {
+    max-width: 100%;
+    max-height:100%;
+}
+.text {
+    font-size: 20px;
+}
+.article {
+display:flex;
+align-items:center;
+justify-content: center;
+}
+#articleimg {
+    max-width: 100%;
+    max-height:100%;
+}
+#articletext {
+padding-left:80px;
 }
